@@ -1,0 +1,418 @@
+/*Paleta de colores
+azul_oscuro: #01415B
+verde_oscuro: #005148
+verde claro: #019587
+oliva: #A6BC09
+amarillo: #CCEA8D
+*/
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+body{
+    background-color: #F4F4F4;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+}
+header{
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100px;
+}
+.logo{
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.logo__img{
+    float: left;
+    width: 80px;
+}
+.logo__texto{
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    color: #01415B;
+    text-align: center;
+}
+.logo__tc{
+    border-top: 1px solid #CCEA8D;
+    font-size: 1.1rem;
+    color: #005148;
+}
+nav{
+    display: inline-block;
+    margin-left: 5%;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+
+}
+nav ul li {
+    display: inline-block;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-right: 2rem;
+    background-color: #01415B;
+    padding: 15px;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+nav ul li a {
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+.Principal{
+    background-image: url('../img/chica2.jpg');
+    background-size: cover;
+    height: 450px;
+}
+.Principal__titulo{
+    padding-top: 150px;
+    padding-left: 50px;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.Principal__boton{
+    padding-top: 30px;
+    padding-left: 35%;
+}
+.boton__principal{
+  border: 0;
+  text-align: center;
+  display: inline-block;
+  padding: 14px;
+  width: 150px;
+  margin: 7px;
+  color: #ffffff;
+  background-color: #019587;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.Principal__boton__textochico{
+    font-size: 0.8rem;
+    margin-left: 20px;
+    color: #005148;
+}
+
+.Beneficios{
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Beneficios__titulo{
+    color: #01415B;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 1rem;
+
+}
+.Beneficios__caja1{
+    border-bottom: 1px solid rgb(148, 148, 148);
+    border-right: 1px solid rgb(148, 148, 148);
+    display: inline-block;
+    width: 22%;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.Beneficios__caja1 img{
+    height: 180px;
+}
+.Beneficios__caja2{
+    border-bottom: 1px solid rgb(148, 148, 148);
+    border-right: 1px solid rgb(148, 148, 148);
+    display: inline-block;
+    width: 22%;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.Beneficios__caja2 img{
+    height: 180px;
+}
+.Beneficios__caja3{
+    border-bottom: 1px solid rgb(148, 148, 148);
+    border-right: 1px solid rgb(148, 148, 148);
+    display: inline-block;
+    width: 22%;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.Beneficios__caja3 img{
+    height: 180px;
+}
+
+.Beneficios__caja4{
+    border-bottom: 1px solid rgb(148, 148, 148);
+    border-right: 1px solid rgb(148, 148, 148);
+    display: inline-block;
+    width: 22%;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    
+}
+.Beneficios__caja4 img{
+    height: 180px;
+}
+
+.Nocontrol{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Nocontrol__titulo{
+    color: #01415B;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.Nocontrol__caja1{
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+}
+.Nocontrol__caja1__texto{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.Nocontrol__caja2{
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    background-image: url('../img/box1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.Nocontrol__caja3{
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    background-image: url('../img/tarjeta1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.Nocontrol__caja4{
+    display: inline-block;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+}
+.Nocontrol__caja4__texto{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.Invitacion{
+height: 100px;
+background-color: #ffffff;
+padding-top: 20px;
+}
+.Invitacion__texto{
+    display: inline-block;
+    margin-left: 20%;
+    padding-top: 15px;
+    font-weight: 600;
+    color: #005148;
+    font-size: 1.3rem;
+}
+.Invitacion__boton{
+    display: inline-block;
+    float: right;
+    margin-right: 20%;
+}
+.Invitacion__gratis{
+    background-color: #CCEA8D;
+}
+.Footer{
+    background-color: #D9D9D9;
+    text-align: center;
+}
+.Footer__redes{
+    display: inline-block;
+    float: left;
+    margin-left: 20%;
+}
+.Footer__textos{
+    display: inline-block;
+    float: right;
+    margin-right: 15%;
+}
+.Footer__redes__twitter{
+    width: 44px;
+    height: auto;
+}
+.Footer__redes__youtube{
+    width: 74px;
+    height: auto;
+}
+.Footer__redes__whatapp{
+    width: 44px;
+    height: auto;
+}
+.Footer__textos ul {
+    list-style: none;
+}
+
+.Subheader{
+    height: 80px;
+    border-top: 1px solid grey;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 10%, rgba(237,254,237,1) 49%, rgba(74,152,72,1) 100%);
+}
+.Subheader__titulo{
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 15%;
+    color: #01415B;
+
+}
+.Acerca{
+    background-color: #ffffff;
+    display: inline-block;
+}
+.Acerca__img__descripcion img{
+    width: 350px;
+    margin-left: 15%;
+    float: left;
+    padding-right: 50px;
+}
+.Acerca__texto__descripcion{
+    padding-top: 50px;
+}
+
+.Equipo__titulo{
+    color: #01415B;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.Equipo{
+    background-color: #ffffff;
+}
+
+
+.Equipo__imagen__persona{
+    width: 300px;
+    margin-left: 10%;
+   
+}
+.Equipo__texto__persona1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #01415B;
+    text-align: left;
+    padding-left: 40px;
+}
+.Equipo__texto__persona2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #01415B;
+    text-align: right;
+}
+.Equipo__texto__persona__cargo{
+    color: gray;
+    font-size: 0.9rem;
+}
+
+
+.Precios{
+    background-color: #ffffff;
+}
+
+.Precios__titulo{
+    color: #01415B;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+}
+.Precios__imagen{
+    width: 400px;
+    margin-left: 5%;
+   
+}
+.Precios__texto1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #01415B;
+    text-align: left;
+    padding-left: 40px;
+}
+
+.Precios__texto{
+    color: gray;
+    font-size: 0.9rem;
+}
+
+
+.Faq{
+    background-color: #ffffff;
+}
+
+.Faq__titulo{
+    color: #01415B;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    
+}
+.Faq_pregunta{
+    color: #005148;
+}
+.Faq_pregunta span {
+    color: rgb(88, 17, 17);
+}
+.Video{
+    margin: 0 auto;
+}
+.Video__titulo{
+    color: #01415B;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    
+}
+.Formulario {
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+.Formulario__titulo{
+    color: #01415B;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+.Formulario form{
+    text-align: center;
+}
